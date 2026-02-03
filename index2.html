@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spotify Song Downloader</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  
+
+  <div class="container">
+    <h2>Spotify Song Downloader</h2>
+
+    <div class="input-wrapper">
+  <input 
+    type="text" 
+    id="spotifyLink" 
+    placeholder="Paste Spotify Song Link"
+  />
+  <span class="clear-btn" onclick="clearInput()">✕</span>
+</div>
+
+    <button onclick="downloadSong()">Check Details</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script2.js"></script>
+</body>
+</html>
+
